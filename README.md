@@ -5,6 +5,8 @@ Projet de creation d'un site e-commerce de produits en tout genre avec integrati
  <ol>
    <li>Description du projet</li>
    <li>Architecture du site web</li>
-   <li>Descrip</li>
-   
+   <li>Deep-learning: Chatbot</li>
+   <li>Integration du chatbot</li>
+   <li>Interface graphique</li>
+   <li>Credits</li>
  </ol>
