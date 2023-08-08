@@ -22,7 +22,43 @@ Projet de creation d'un site e-commerce de produits en tout genre avec integrati
 <h2>Interface graphique</h2>
 
 <h2>Intallation et utilisation</h2>
+<h3><ol><li>A partir de Docker</li> </ol> </h3>
+	<p>Docker. Docker est un logiciel qui permet de créer et de gérer des conteneurs, qui sont des environnements isolés pour exécuter des applications. Pour installer Docker, vous devez suivre les étapes suivantes, selon votre système d’exploitation:</p><br>
+<li>Si vous utilisez Windows 10 ou 11, vous devez télécharger le fichier d’installation Docker pour Desktop sur le Docker Hub12, lancer l’installation en tant qu’administrateur, activer les fonctionnalités Hyper-V Windows et lancer Docker.</li>
+<li>Si vous utilisez Windows 10 ou 11, vous devez télécharger le fichier d’installation Docker pour Desktop sur le Docker Hub12, lancer l’installation en tant qu’administrateur, activer les fonctionnalités Hyper-V Windows et lancer Docker.</li>
+	
+	sudo apt update
+ 	sudo apt install apt-transport-https ca-certificates curl software-properties-common
+	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add 
+	sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+	sudo apt update
+	sudo apt install docker-ce
+ <p>Pour consulter le site web , telecharger l'image docker du projet qui sont des fichiers contenant les divers services de l'applications.Dans l'invite de commande, éxecuter la commande suivante:
+ 	
+	 docker pull test-driven-app
+  <br> Pour executer le conteneur, inserer la commande:
 
+  	docker run -it test-driven-app
+ </p>
+
+ <h3><ol><li>Grace à l'environnement virtuel</li> </ol></h3>
+ <li>Telecharger le projets dans votre machine grace à la commande git:
+ 	
+	 git clone https://github.com/DarkShadowCoder/Microservices-with-Docker-flask-and-react.git
+  	 cd Microservices-with-Docker-flask-and-react
+ </li>
+ <li>Ensuite activer l'environnemnt virtuel grace à la commande:
+ 	
+	 source ./env/bin/activate
+ </li>
+ <li>Installer toutes les librairies requise pour executer l'application grace à:
+	
+  	pip install -r requirements.txt
+ </li>
+ <li>Executer le code avec:
+
+ 	npm start
+ </li>
 <h2>Credits</h2>
 <h3>Langages utilisés</h3>
 	<p>
