@@ -3,10 +3,11 @@ Projet de creation d'un site e-commerce de produits en tout genre avec integrati
 <img src="docs/imgs/ecommerce.jpg" alt='image de site ecommerce' width="200px" height="100%">
  <h2>Table de contenu</h2>
  <ol>
-   <li>Description du projet</li>
-   <li>Architecture du site web</li>
-   <li>Deep-learning: Chatbot</li>
-   <li>Integration du chatbot</li>
-   <li>Interface graphique</li>
-   <li>Credits</li>
+  
+   <li><a href="">Description du projet</a></li>
+   <li><a href=""> Architecture du site web</a></li>
+   <li><a href=""  Deep-learning: Chatbot></a></li>
+   <li><a href="">Integration du chatbot</a>  </li>
+   <li> <a href="">Interface graphique</a> </li>
+   <li> <a href=""></a> Credits</li>
  </ol>
