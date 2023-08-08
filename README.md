@@ -11,7 +11,7 @@ Projet de creation d'un site e-commerce de produits en tout genre avec integrati
    <li> <a href="">Installation et utilisation</a></li>
    <li> <a href="">Credits</a> </li>
  </ol>
- <h2>Description du projet</h2>
+<h2>Description du projet</h2>
 
 <h2>Architecture du site web</h2>
 
