@@ -44,7 +44,7 @@ Projet de creation d'un site e-commerce de produits en tout genre avec integrati
  <h3><ol><li>Grace à l'environnement virtuel</li> </ol></h3>
  <li>Telecharger le projets dans votre machine grace à la commande git:
  	
-	 git clone https://github.com/DarkShadowCoder/Ecommerce.git
+	 git clone https://github.com/DarkShadowCoder/Ecommerce-chatbot-website.git
   	 cd Microservices-with-Docker-flask-and-react
  </li>
  <li>Ensuite activer l'environnemnt virtuel grace à la commande:
