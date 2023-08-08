@@ -1,2 +1,3 @@
 # Ecommerce-Chatbot-website
-Site web e-commerce avec chatbot intégré codé en python(flask) et Javascripts (React) 
+Projet de creation d'un site e-commerce de produits en tout genre avec integration d'un chatbot 
+<img src="docs/imgs/ecommerce.jpg" alt='image de site ecommerce' width="200px" height="100%">
