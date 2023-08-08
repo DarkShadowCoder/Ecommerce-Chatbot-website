@@ -10,7 +10,7 @@ Projet de creation d'un site e-commerce de produits en tout genre avec integrati
 	<img alt="Static Badge" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white">
 	<img alt="Static Badge" src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white">
 </p>
-<img src="service/docs/imgs/ecommerce.jpg" alt='image de site ecommerce' width="2000px" height="400px">
+<img src="service/docs/imgs/ecommerce.jpg" alt='image de site ecommerce' width="1000px" height="400px">
  <h2>Table de contenu</h2>
  <ol>
    <li><a href="">Description du projet</a></li>
