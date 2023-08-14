@@ -11,9 +11,9 @@ Projet de creation d'un site e-commerce de produits en tout genre avec integrati
 	<img alt="Static Badge" src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=Swagger&logoColor=white">
 </p>
 <img src="service/docs/imgs/ecommerce.jpg" alt='image de site ecommerce' width="1000px" height="400px">
- <h2>Table de contenu</h2>
- <ol>
-   <li><a href="">Description du projet</a></li>
+ <h2 style="text-align:center">Table de contenu</h2>
+ <ol style="border-radius:20px;font-size:22px;background-color:whitesmoke;display:flex;flex-direction:column;justify-content:center;align-items:center">
+   <li><a href="">Description du projet</a></li> 
    <li><a href=""> Architecture du site web</a></li>
    <li><a href=""  >Deep-learning: Chatbot</a></li>
    <li><a href="">Integration du chatbot</a>  </li>
@@ -22,6 +22,20 @@ Projet de creation d'un site e-commerce de produits en tout genre avec integrati
    <li> <a href="">Credits</a> </li>
  </ol>
 <h2>Description du projet</h2>
+<div style="border-left:15px solid red; padding-left:25px;border-bottom: 2px solid gray;padding:8px;border-radius:5px;border-right:2px solid gray; text-align:justify">Il s'agit ici d'un site web moderne crée en utilisant les langages de programmmation python et React concus grace à une architecture microservice et admettant plusieurs services autonomes et deployés sur le cloud (Amazone EC2);
+Parmis les differents services et outre que les services de base d'un site de vente en ligne. Ce site web admet un service de de payment bancaire architecturé suivant le diagrammes ci-dessous. Aussi, ce site web contient un systeme d'assiance virtuelle: Un chatbot pour gerer les differentes transactions et/ou opérations en mode discussions.
+A cela s'ajoute un systeme d'analyse intelligente des differents utilisateurs integré à la page de suivie d'utilisateurs geré par l'administrateur.
+<br/>
+Le site web est concus grace à <strong style="color:blue">flask</strong> en backend;<br>
+L'interface utilisateur est crée avec le framework <strong style="color:blue">React</strong>;
+<br>
+Nous utilisons <strong style="color:blue">MongoDB (NoSQL) </strong> pour la gestion de la base de données.
+<br><strong style="color:blue">Docker</strong> nous permet d'"empaqueter" les differents services ;
+<br> L'orchestration des conteneurs est gerée grace à <strong style="color:blue">Kubernete </strong>;<br>
+Le site web est deployé sur <strong style="color:blue">Amazone EC2</strong> qui represente ici un service;
+<br> Le chatbot est concus avec python en utilisant des algorithmes de Deep Learning : NLP avec <strong style="color:blue">Tensorflow et SQlearn</strong>
+;<br> Le systeme d'analyse des données utilisateurs est egalement cré avec de <strong style="color:blue">python (SQlearn) </strong> 
+</div>
 
 <h2>Architecture du site web</h2>
 
